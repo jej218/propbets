@@ -1,0 +1,37 @@
+form table tbody tr th {
+  display: none;
+}
+form table tbody tr td {
+  display: flex;
+  flex-direction: column;
+}
+form table tbody tr td span.helptext {
+  order: 1;
+  margin-bottom: 10px;
+}
+form table tbody tr td div, form table tbody tr td input {
+  order: 2;
+}
+form table tbody tr td br {
+  order: 0;
+  display: none;
+}
+form table tbody tr td div div label {
+  color: black;
+  font-size: 0.9rem;
+  position: static;
+}
+form table tbody tr td div div label > input[type=radio]:not(:checked), form table tbody tr td div div label > input[type=radio]:checked {
+  opacity: 1;
+  position: static;
+  display: inline-block;
+  margin-top: 5px;
+  margin-right: 5px;
+}
+
+input.btn {
+  margin-bottom: 20px;
+  margin-top: 15px;
+}
+
+/*# sourceMappingURL=form.css.map */

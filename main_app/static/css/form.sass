@@ -1,0 +1,33 @@
+form
+    table
+        tbody
+            tr
+                th
+                    display: none
+                td
+                    display: flex
+                    flex-direction: column
+                    span.helptext
+                        order: 1
+                        margin-bottom: 10px
+                    div, input
+                        order: 2
+                    br
+                        order: 0
+                        display: none
+                    div
+                        div
+                            label
+                                color: black
+                                font-size: 0.9rem
+                                position: static
+                                >input[type=radio]:not(:checked), >input[type=radio]:checked
+                                    opacity: 1
+                                    position: static
+                                    display: inline-block
+                                    margin-top: 5px
+                                    margin-right: 5px
+
+input.btn
+    margin-bottom: 20px
+    margin-top: 15px
